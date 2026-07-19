@@ -1,4 +1,4 @@
-name: Bot Tendencias 24/7
+name: Bot Tendencias REAL 24/7
 
 on:
   push:
@@ -19,4 +19,4 @@ jobs:
       - run: pip install -r requirements.txt
       - env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-        run: python bot.py
+        run: python bot_tendencias_v2.py
